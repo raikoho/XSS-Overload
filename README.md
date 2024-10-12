@@ -1,5 +1,5 @@
 # XSS-Overload
-Super fast and optimized XSS bruteforcer for GET requests parameters using a dictionary for payloads.
+Super fast and optimized XSS Overload for GET requests parameters using a dictionary for payloads.
 This is a Python-based tool designed to automate the process of testing for Cross-Site Scripting (XSS) vulnerabilities on web applications. This tool allows security researchers and ethical hackers to efficiently execute various payloads against specified parameters in GET requests and also introduces automatic parameter determination.
 
 ## Features
@@ -11,7 +11,7 @@ This is a Python-based tool designed to automate the process of testing for Cros
 
 ## Installation
 
-To get started with XSS BruteForcer, follow these steps:
+To get started with XSS Overload, follow these steps:
 
 1. **Clone the repository**:
     ```bash
@@ -41,7 +41,11 @@ To get started with XSS BruteForcer, follow these steps:
 
 3. Review the results for any successful payload executions.
 
-## Example
+## Wordlist
 
-```bash
-python xss_bruteforcer.py
+Use default included payloads.txt for over XXE payloads.
+Or plug in your own.
+
+## Thank you
+
+Thank you for using this tool. Please write to me if you have your own ideas on how to make it even better.
