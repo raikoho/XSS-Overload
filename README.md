@@ -43,7 +43,7 @@ To get started with XSS Overload, follow these steps:
 
 ## Wordlist
 
-Use default included payloads.txt for over XXE payloads.
+Use default included payloads.txt for over XXS payloads.
 Or plug in your own.
 
 ## Thank you
